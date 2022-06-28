@@ -1,0 +1,66 @@
+1. Entrar en el thecmdchallenge/directorio -->
+gitpod /workspace/Command-Line-Challenge (main) $ cd thecmdchallenge
+
+2. Imprimir la ruta del directorio actual -->
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ pwd
+/workspace/Command-Line-Challenge/thecmdchallenge
+
+3. Enumere todos los archivos del directorio actual, incluidos los ocultos -->
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ ls -a
+.  ..  boringfolder  console_master.md  funcode  kamehameha  small-name
+
+4. Ahora enumere todos los archivos dentro del proyecto, recursivamente (todos los archivos en la jerarquía) -->
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ ls -R
+.:
+boringfolder  console_master.md  funcode  kamehameha  small-name
+
+./boringfolder:
+babel.png  breathecode.shadow.png  c9.png  css3.png  dropzone.js  event-more-boring  hello.txt  html5.png  jquery.png  js.png  sass.png  scale.fix.js  webpack.png
+
+./boringfolder/event-more-boring:
+i-can-believe-how-boring
+
+./boringfolder/event-more-boring/i-can-believe-how-boring:
+the-ulrimate-boring-inception
+
+./boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception:
+myfirstcopy.txt  the-mostboring-text.txt
+
+./funcode:
+baby.jpg             einstein.1.png  frame.html       kids.1.jpg     regexer.1.js     scared-baby.1.jpg  view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+baby.success.1.jpg   einstein.png    images           kids.jpg       regexer.css      scared-baby.jpg
+baby.success.jpg     forms.1.html    invalid.png      mouse.1.html   regexer.js       script.js
+borat.success.1.jpg  forms.html      keyboard.1.html  mouse.html     rigoberto.1.jpg  the-most-funny
+borat.success.jpg    frame.1.html    keyboard.html    regexer.1.css  rigoberto.jpg    valid.png
+
+./funcode/images:
+hello
+
+./funcode/images/hello:
+invalid.png
+
+./funcode/the-most-funny:
+lol
+
+./funcode/the-most-funny/lol:
+the-ultimate-joke.txt
+
+./kamehameha:
+dragon-ball-jokes.md
+
+./small-name:
+bigger-name-than-before
+
+./small-name/bigger-name-than-before:
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type:
+this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious:
+trophy.txt
+
+5. Borrar todo el desorden desde la línea de comando -->
+Escribir clear y dar al botón de enter.
+
+6. Vaya al último nivel debajo de la carpeta de nombre pequeño y muestre en la consola el contenido del trophy.txtarchivo. -->
