@@ -1,15 +1,15 @@
-1. Entrar en el thecmdchallenge/directorio -->
+1. Get inside the thecmdchallenge/ directory -->
 gitpod /workspace/Command-Line-Challenge (main) $ cd thecmdchallenge
 
-2. Imprimir la ruta del directorio actual -->
+2. Print current directory path -->
 gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ pwd
 /workspace/Command-Line-Challenge/thecmdchallenge
 
-3. Enumere todos los archivos del directorio actual, incluidos los ocultos -->
+3. List all the files from the current directory including the hidden ones -->
 gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ ls -a
 .  ..  boringfolder  console_master.md  funcode  kamehameha  small-name
 
-4. Ahora enumere todos los archivos dentro del proyecto, recursivamente (todos los archivos en la jerarquía) -->
+4. Now list all the files inside the project, recursively (all files in the hierarchy). -->
 gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ ls -R
 .:
 boringfolder  console_master.md  funcode  kamehameha  small-name
@@ -60,7 +60,96 @@ this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure
 ./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious:
 trophy.txt
 
-5. Borrar todo el desorden desde la línea de comando -->
+5. Clear all the clutter from the command line -->
 Escribir clear y dar al botón de enter.
 
-6. Vaya al último nivel debajo de la carpeta de nombre pequeño y muestre en la consola el contenido del trophy.txtarchivo. -->
+6. Go to the last level below the small-name folder and show on the console the content of the trophy.txt file. -->
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ cd small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious (main) $ ls
+trophy.txt
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious (main) $ cat trophy.txt
+MMMMMMMMMMMNhoooooooooosyymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdysooo++oo+ooymMMMMMMMM
+MMMMMMMMMMNsohMMMMMMMNNmho/hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNsohdmNMMMMMMMdo+dMMMMMMM
+MMMMMMMMMMh+yMMMMMMMMMMMMs++NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm+oMMMMMMMMMMMMho/MMMMMMM
+MMMMMMMMMMs+hMMMMMMMMMMMMy+/NMMMMMNNNmmddddddddddhhhhhhhhdddmmmmNNNMMMMMMMMd+oMMMMMMMMMMMMmo/dMMMMMM
+MMMMMMMMMMy+hMMMMMMMMMMMMh+/dNhysssoooooooooooo++++++++++ooooossssssyyhhdNMy+yMMMMMMMMMMMMdo/dMMMMMM
+MMMMMMMMMMh+sMMMMMMMMMMMMNho++oossoooooooo+++++/////////++++++ooooooosssooo+yNMMMMMMMMMMMMy+/NMMMMMM
+MMMMMMMMMMNo+mMMMMMMMMMMMMMMNmossssooooo++++++///////////+++++ooooooosysodmNMMMMMMMMMMMMMNs+oMMMMMMM
+MMMMMMMMMMMy+oMMMMMMMMMMMMMMMmoossoooooo++++++///////////+++++ooooooosssomMMMMMMMMMMMMMMMh+/mMMMMMMM
+MMMMMMMMMMMNo/hMMMMMMMMMMMMMMmoossoooooo+++++////////////+++++++++++osso+mMMMMMMMMMMMMMMmo/yMMMMMMMM
+MMMMMMMMMMMMd++dMMMMMMMMMMMMMNoossoo+++++++++////////////+++++++++++osso+mMMMMMMMMMMMMMNs/+NMMMMMMMM
+MMMMMMMMMMMMMh++mMMMMMMMMMMMMmoooso++++++++++////////////+++++++++++osso+NMMMMMMMMMMMMNy++mMMMMMMMMM
+MMMMMMMMMMMMMMy/+mMMMMMMMMMMMNo+ooo+++++++++++///////////+++++++++++oso++NMMMMMMMMMMMMy//mMMMMMMMMMM
+MMMMMMMMMMMMMMMy//dMMMMMMMMMMNo++o++++++++++++///////////+++++++++/+ooo+oNMMMMMMMMMMMy//mMMMMMMMMMMM
+MMMMMMMMMMMMMMMMh+/hMMMMMMMMMMs+++++++//+++++++/////////+++++++////+oo+/sMMMMMMMMMMNs/+mMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMh+/yMMMMMMMMMy/+++//////+++++++///////+++++++/////+oo+/yMMMMMMMMMNo/oNMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMmo/+mMMMMMMMm//++///////++++++++///+++++++++/////+o+//mMMMMMMMMd+/yMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMNy//yNMMMMMMo///////////++++++++++++++++++//////+o//oMMMMMMMNs/+mMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMdo/+dMMMMMd///////////////////////////////::/+++//dMMMMMNh//yNMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNh+:omMMMMs/////:::::::::::::::::::::::::::/++/:sMMMMNh//sNMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMmy//omMMN+////::::::::::::::::::::::::::/++/:+NMMNh//smMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMmy//odMm/////:::::::::::::::::::::::::/+/:/mMms//smMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+/+yh/////:::::::::::::::::::::::/+/::yh+/+hmMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNds+//::///::::::::::---------::/+/::/++ydNMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdyo/::/:::---------------:://::/oydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh/:::::-------------::/::/hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+:---------------:::+hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmdso/:-------::/ohmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh:::---/dmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN/:::::sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+//:::dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs+//::NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd++/:+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdo+/:+NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNyoo+/:/odMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo+/:/hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+/:oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+//sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMyoo+/+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdhooo+/+oddmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhssyssoo++oosysydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhysoooooooooooooooooooshmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNhsoooooooooooooooooooooooooosymNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNmdhssooooooooooooooooossyyhdmNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNmmdddhhhhhhhhhdddmmNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddddyyyyyysssssssssssssssssyddddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddhy+++////:::::-----------/ohddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddy++++////:::::-------------hddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddy++++////:::::-------------hddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMNdddddddddho+++////:::::-----------::hddddddddddmNMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNNmddddddddddoo+++++////////////////oddddddddddddmNNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMddddddddddddddddddddddddddddddddddddddddddddddddddddddMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMNNNNNNNNmddddddddddddddddddddddddddddddddddddddddddddddddddddmNNNNNNNNMMMMMMMMMMMMM
+MMMMMMMMMMMMMNNNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNMMMMMMMMM
+MMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMM
+
+7. Move one level up and get to the funcode directory and list all files with the javascript typical extension. -->
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious (main) $ cd ../../../../
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ cd funcode
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/funcode (main) $ ls *.js
+regexer.1.js  regexer.js  script.js
+
+8. Create a new directory inside funcode/the-most-funny/ called “not-that-funny“. -->
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/funcode (main) $ cd the-most-funny
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/funcode/the-most-funny (main) $ mkdir not-that-funny
+
+9. Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt.
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/funcode/the-most-funny (main) $ cd ../../
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge (main) $ cd boringfolder
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/boringfolder (main) $ cd event-more-boring
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/boringfolder/event-more-boring (main) $ cd i-can-believe-how-boring
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring (main) $ cd the-ulrimate-boring-inception
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (main) $ ls
+myfirstcopy.txt  the-mostboring-text.txt
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (main) $ cp the-mostboring-text.txt lol.txt
+gitpod /workspace/Command-Line-Challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (main) $ ls
+lol.txt  myfirstcopy.txt  the-mostboring-text.txt
